@@ -38,9 +38,28 @@ section#telefone {
     top: 80px;
     left: 22px;
 
-    width: 268px;
+    width: 266px;
     height: 471px;
 }
 #redessociais  img {
     width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.438);
+    box-sizing: border-box;
+
+    transition: 0.5s;
 }
+#redessociais  img:hover {
+    border: solid 2px rgba(245, 245, 245, 0.384);
+    transform: scale(1.2)
+}
+
+
+#redessociais {
+    text-align: right;
+
+    
+}
+
+
